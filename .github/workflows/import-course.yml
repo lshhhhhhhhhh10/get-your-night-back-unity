@@ -1,0 +1,42 @@
+name: Import native course source
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and import the uploaded source
+        shell: python
+        run: |
+          from pathlib import Path
+          import hashlib, json, zipfile, io
+          root = Path.cwd()
+          manifest = json.loads((root / 'course-manifest.json').read_text())
+          chunks = []
+          for part in manifest['parts']:
+              p = root / part['name']
+              content = p.read_bytes()
+              assert len(content) == part['bytes']
+              assert hashlib.sha256(content).hexdigest() == part['sha256']
+              chunks.append(content)
+          archive = b''.join(chunks)
+          assert hashlib.sha256(archive).hexdigest() == manifest['archive_sha256']
+          with zipfile.ZipFile(io.BytesIO(archive)) as source:
+              for item in source.infolist():
+                  path = Path(item.filename)
+                  assert not path.is_absolute() and '..' not in path.parts
+                  assert path.parts[0] in ['Assets','Packages','ProjectSettings','docs','site','tools','AGENTS.md','STATUS.md','DEVLOG.md','README.md','.gitignore']
+              source.extractall(root)
+          for part in manifest['parts']:
+              (root / part['name']).unlink()
+          (root / 'course-manifest.json').unlink()
+      - name: Commit the complete native project
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Import native game and populated CGDD coursework site"
+          git push origin HEAD:main
