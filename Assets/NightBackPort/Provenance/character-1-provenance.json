@@ -1,0 +1,38 @@
+{
+  "source": "User supplied peak-characters.zip",
+  "selected": "Character 1",
+  "inputContainsRig": false,
+  "inputContainsAnimations": false,
+  "changes": [
+    "resolved image paths",
+    "textures limited to 1024",
+    "head accessory reduced for browser runtime",
+    "simple six-bone rig added"
+  ],
+  "meshes": [
+    {
+      "name": "Belt.002",
+      "vertices": 814
+    },
+    {
+      "name": "BODY.001",
+      "vertices": 1882
+    },
+    {
+      "name": "CLOTHES.001",
+      "vertices": 3436
+    },
+    {
+      "name": "Crab HEAD",
+      "vertices": 6269
+    },
+    {
+      "name": "HEAD.001",
+      "vertices": 482
+    },
+    {
+      "name": "Scarf",
+      "vertices": 176
+    }
+  ]
+}

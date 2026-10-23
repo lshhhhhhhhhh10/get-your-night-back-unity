@@ -1,0 +1,42 @@
+{
+  "source": "User supplied peak-characters.zip",
+  "selected": "Character 2",
+  "inputContainsRig": false,
+  "inputContainsAnimations": false,
+  "changes": [
+    "resolved image paths",
+    "textures limited to 1024",
+    "head accessory reduced for browser runtime",
+    "simple six-bone rig added"
+  ],
+  "meshes": [
+    {
+      "name": "Belt.001",
+      "vertices": 814
+    },
+    {
+      "name": "BODY.002",
+      "vertices": 1850
+    },
+    {
+      "name": "ch3 Scarft 1",
+      "vertices": 6
+    },
+    {
+      "name": "ch3 Scarft 2",
+      "vertices": 6
+    },
+    {
+      "name": "ChefCAp",
+      "vertices": 3321
+    },
+    {
+      "name": "CLOTHES.002",
+      "vertices": 3404
+    },
+    {
+      "name": "HEAD.002",
+      "vertices": 482
+    }
+  ]
+}

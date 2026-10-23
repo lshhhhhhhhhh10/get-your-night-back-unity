@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get Your Night Back · CGDD</title>
+  <meta name="description" content="CGDD student site: script framework, change log, and the playable.">
+  <link rel="stylesheet" href="styles.css?v=20261023.1">
+  <link rel="icon" href="media/poster.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip" href="#framework" data-i18n="skip">Skip to framework</a>
+  <header class="top">
+    <p class="kicker" data-i18n="kicker">CGDD · Tuanjie 1.6.13 · Get Your Night Back · Coursework</p>
+    <div class="title-row">
+      <h1>Get<br>Your Night Back</h1>
+      <p class="lede" data-i18n="lede">A quiet trip to retrieve your phone — and get back to bed unnoticed.</p>
+    </div>
+  </header>
+  <nav>
+    <a href="#framework" data-i18n="nav1">01 Framework</a>
+    <a href="#process" data-i18n="nav2">02 Process</a>
+    <a href="#playable" data-i18n="nav3">03 Playable</a>
+    <div class="lang-switch" role="group" data-i18n-aria="lang-label" aria-label="Language">
+      <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+    </div>
+  </nav>
+  <main>
+    <p class="delivery-links"><a href="https://github.com/lshhhhhhhhhh10/get-your-night-back-unity">Unity project / 工程仓库 ↗</a> · <a href="evidence.html">Development evidence / 开发依据 ↗</a></p>
+    <section id="framework">
+      <header class="section-head">
+        <p class="index">01</p>
+        <div>
+          <h2><span class="lang-main" data-i18n="h-framework">Framework</span> <span class="lang-alt" data-i18n="h-framework-en">框架</span></h2>
+          <p data-i18n-html="framework-lead">Arrows are <code>@calls</code>. The second line of a box is <code>@role</code>. Click a box to open that script. The table is <code>@tune</code>. All of this is exported from the script headers, not drawn by hand.</p>
+        </div>
+      </header>
+      <p class="note">File-level primary dependencies · 文件级主要依赖。Use the selector or click a node / 可选择脚本或点击节点。</p>
+      <label class="script-picker">Script / 脚本 <select id="script-select" aria-label="Choose source script"></select></label>
+      <div class="flow-stage">
+        <div class="card flow-card">
+          <div id="flow" data-i18n="flow-loading">Drawing…</div>
+          <ul class="flow-legend" data-i18n-aria="legend-label" aria-label="Node colors">
+            <li><span class="swatch swatch-manager"></span><span data-i18n="legend-manager">Rules</span></li>
+            <li><span class="swatch swatch-actor"></span><span data-i18n="legend-actor">Player</span></li>
+            <li><span class="swatch swatch-world"></span><span data-i18n="legend-world">World</span></li>
+            <li><span class="swatch swatch-ui"></span><span data-i18n="legend-ui">Interface</span></li>
+          </ul>
+        </div>
+        <article id="script-view" class="card script-view" aria-live="polite">
+          <p id="script-empty" class="script-empty" data-i18n="script-empty">Click a box in the flowchart to open that script.</p>
+          <div id="script-body" hidden>
+            <header class="script-head">
+              <div>
+                <p class="script-name" id="script-title"></p>
+                <p class="script-role" id="script-role"></p>
+                <p class="script-path" id="script-path"></p>
+              </div>
+              <button type="button" id="script-close" data-i18n="script-close">Close</button>
+            </header>
+            <p id="script-note" class="script-note" hidden></p>
+            <pre id="script-code" tabindex="0"></pre>
+          </div>
+        </article>
+      </div>
+      <div class="split">
+        <div id="tunables" class="card">Reading tunables…</div>
+        <div id="challenge" class="card">Reading the challenge table…</div>
+      </div>
+    </section>
+    <section id="process">
+      <header class="section-head">
+        <p class="index">02</p>
+        <div>
+          <h2><span class="lang-main" data-i18n="h-process">Process</span> <span class="lang-alt" data-i18n="h-process-en">过程</span></h2>
+          <p data-i18n="process-lead">Only changes to the game are appended. The site and its languages are not logged here. Sections marked EXAMPLE are format samples for students.</p>
+        </div>
+      </header>
+      <div id="devlog-intro" class="card prose"></div>
+      <ol id="timeline" class="timeline"></ol>
+    </section>
+    <section id="playable">
+      <header class="section-head">
+        <p class="index">03</p>
+        <div>
+          <h2><span class="lang-main" data-i18n="h-playable">Playable</span> <span class="lang-alt" data-i18n="h-playable-en">成果</span></h2>
+          <p data-i18n-html="playable-lead">A 2 minute 36 second gameplay recording provided by the student. This recording has no audio.</p>
+        </div>
+      </header>
+      <figure class="screen" id="screen">
+        <video id="rec" poster="media/recording-poster.jpg" controls playsinline preload="metadata" aria-label="Student gameplay recording" hidden></video>
+        <div class="screen-fallback" id="screen-fallback">
+          <p class="stamp" data-i18n="screen-stamp">Recording unavailable</p>
+          <p data-i18n-html="screen-missing">The recording could not be loaded. Please refresh or try again later.</p>
+        </div>
+      </figure>
+    </section>
+  </main>
+  <footer>
+    <p data-i18n-html="footer">The game lives in the Unity project. The framework is in <code>docs/</code>. The process is in <code>DEVLOG.md</code>. This page just lays them out.</p>
+  </footer>
+  <script src="mermaid.min.js"></script>
+  <script src="data/bundle.js"></script>
+  <script src="lang.js"></script>
+  <script src="recording.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

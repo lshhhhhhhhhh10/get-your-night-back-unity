@@ -1,0 +1,50 @@
+{
+  "source": "User supplied peak-characters.zip",
+  "selected": "Character 3",
+  "inputContainsRig": false,
+  "inputContainsAnimations": false,
+  "changes": [
+    "resolved image paths",
+    "textures limited to 1024",
+    "scarf reduced",
+    "simple six-bone rig added"
+  ],
+  "meshes": [
+    {
+      "name": "Belt",
+      "vertices": 814
+    },
+    {
+      "name": "BODY.003",
+      "vertices": 1850
+    },
+    {
+      "name": "CLOTHES.003",
+      "vertices": 3404
+    },
+    {
+      "name": "Hat",
+      "vertices": 2765
+    },
+    {
+      "name": "HEAD.003",
+      "vertices": 482
+    },
+    {
+      "name": "Scarf.001",
+      "vertices": 1300
+    },
+    {
+      "name": "Scarft 2",
+      "vertices": 98
+    },
+    {
+      "name": "Scarft 3",
+      "vertices": 98
+    }
+  ],
+  "runtimeRoles": {
+    "player": "Character 3, original runtime scale",
+    "parent": "Same supplied Character 3, scale 1.12, purple clothing tint, independent skeleton and sleep/patrol poses"
+  }
+}

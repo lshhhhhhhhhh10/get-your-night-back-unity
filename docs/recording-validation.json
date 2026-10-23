@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-23",
+  "provided_recording": "cgdd 1023.mov",
+  "original": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 2940,
+        "height": 1912,
+        "r_frame_rate": "60/1",
+        "nb_frames": "9337"
+      }
+    ],
+    "format": {
+      "duration": "155.616667",
+      "size": "610989353"
+    }
+  },
+  "web": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1248,
+        "r_frame_rate": "30/1",
+        "nb_frames": "4670"
+      }
+    ],
+    "format": {
+      "duration": "155.666667",
+      "size": "22840721"
+    }
+  },
+  "web_sha256": "457370e5f1cc731fbac9bf72f5f22bfbe8b7d899d1de06c8b44fa1e8ee1184cd",
+  "original_sha256": "c13ee303458f189a3865f63b444bc1b22b8d859f1ad2b3ddcde5416c09d33ce1",
+  "no_audio_in_original": true,
+  "full_duration_preserved_within_0_1_seconds": true,
+  "faststart": true,
+  "original_11_upload_parts_hash_check": "pass",
+  "remote_upload": "blocked: GitHub integration create_blob returned 403",
+  "browser_playback_verified": false,
+  "gameplay_tests_rerun": false,
+  "complete_decode": "pass",
+  "javascript_syntax": "pass",
+  "relative_html_links": 11,
+  "full_frame_contain": true,
+  "hidden_overlay_fix": true,
+  "protected_files_unchanged": 41
+}

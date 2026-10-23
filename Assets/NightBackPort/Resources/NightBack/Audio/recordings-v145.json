@@ -1,0 +1,57 @@
+[
+  {
+    "file": "floor-creak-1.wav",
+    "author": "Rudmer_Rotteveel",
+    "page": "https://freesound.org/people/Rudmer_Rotteveel/sounds/506662/",
+    "download": "https://cdn.freesound.org/previews/506/506662_4921277-hq.mp3",
+    "inputFormat": "public HQ MP3 preview, not original WAV",
+    "license": "CC0-1.0",
+    "verified": "2026-09-10",
+    "inputSha256": "ca0d99357dec4aee3cbb1a32e0b4ed3d15558fb68c63e8203e52240bf7e5c301",
+    "outputSha256": "5e93d19e61f7d0d19b912057e2af37c5376bceaa5f8a6ddfee6b1f6ec2608762"
+  },
+  {
+    "file": "floor-creak-2.wav",
+    "author": "Rudmer_Rotteveel",
+    "page": "https://freesound.org/people/Rudmer_Rotteveel/sounds/506664/",
+    "download": "https://cdn.freesound.org/previews/506/506664_4921277-hq.mp3",
+    "inputFormat": "public HQ MP3 preview, not original WAV",
+    "license": "CC0-1.0",
+    "verified": "2026-09-10",
+    "inputSha256": "5dafd36ededfa2de484ac0445d454da272439be0c5ab5d18aa6554c64687b220",
+    "outputSha256": "289257588ce07ad4b4c6c5eb4816658c98f3d09df9639189f18cd3d57027fe80"
+  },
+  {
+    "file": "floor-creak-3.wav",
+    "author": "Rudmer_Rotteveel",
+    "page": "https://freesound.org/people/Rudmer_Rotteveel/sounds/506661/",
+    "download": "https://cdn.freesound.org/previews/506/506661_4921277-hq.mp3",
+    "inputFormat": "public HQ MP3 preview, not original WAV",
+    "license": "CC0-1.0",
+    "verified": "2026-09-10",
+    "inputSha256": "5c1749a248ea4409c886e520fce053a8392a64ebddccccf78cff429909a4e64c",
+    "outputSha256": "b95c2ea9837c97d5eb71dad63062a5ba0bbffab8d5c1f8107d8c4e80178de02f"
+  },
+  {
+    "file": "snore-real.wav",
+    "author": "Daxter31",
+    "page": "https://freesound.org/people/Daxter31/sounds/114609/",
+    "download": "https://cdn.freesound.org/previews/114/114609_1858592-hq.mp3",
+    "inputFormat": "public HQ MP3 preview, not original WAV",
+    "license": "CC0-1.0",
+    "verified": "2026-09-10",
+    "inputSha256": "8efb5f51876285ab1460c50cde3a115a2142f5f9676dfd7888f65a22ca20ccdd",
+    "outputSha256": "7e2a6ac581611212dda69dab1798715c31c1931db89f62a7f822e1339aecb6db"
+  },
+  {
+    "file": "washer-spin.wav",
+    "author": "Zabuhailo",
+    "page": "https://freesound.org/people/Zabuhailo/sounds/144811/",
+    "download": "https://cdn.freesound.org/previews/144/144811_2580450-hq.mp3",
+    "inputFormat": "public HQ MP3 preview, not original WAV",
+    "license": "CC0-1.0",
+    "verified": "2026-09-10",
+    "inputSha256": "f6d86041172af12d930ea3954493003d225b49b4d57cffff63a175e03437fe80",
+    "outputSha256": "30dd361ff5193c53ca24910cc3d02c41a8d357a715230b00e8f5f2a872cb1fca"
+  }
+]
