@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-23 Asia/Shanghai",
+  "source_commit": "2e7bae031561ca6310d8c92fb7f39684cbf07704",
+  "pages_run": "https://github.com/lshhhhhhhhhh10/get-your-night-back-unity/actions/runs/39968927147",
+  "pages_conclusion": "success",
+  "website": "https://lshhhhhhhhhh10.github.io/get-your-night-back-unity/",
+  "source_files_verified_against_remote_git_blobs": 8807,
+  "missing_files": 0,
+  "mismatched_files": 0,
+  "live_files_sha256_matched": 10,
+  "graph_nodes": 30,
+  "parameter_rows": 7,
+  "script_source_matches": 30,
+  "browser_checks": [
+    "English and Chinese navigation",
+    "NightApp source viewer",
+    "development evidence page",
+    "video metadata 155.666667 seconds",
+    "video playback advances",
+    "video pause and keyboard seek",
+    "page horizontal overflow fixed"
+  ],
+  "browser_console_errors_and_warnings": 0,
+  "video_audio": "original recording has no audio",
+  "fullscreen_check": "not confirmed; excluded from passed checks",
+  "teacher_invitation": {
+    "login": "xingchen-ian",
+    "id": 339123388,
+    "permission": "write",
+    "status": "pending",
+    "email_submission_result": "User has already been invited"
+  },
+  "gameplay_changed": false,
+  "gameplay_retested": false,
+  "unity_reimport_or_build": false,
+  "course_platform_submission": "student will submit personally"
+}

@@ -4,7 +4,7 @@ A quiet trip to retrieve your phone — and get back to bed unnoticed.
 
 This repository contains the native Tuanjie game and its CGDD coursework site. The gameplay baseline is the 2026-10-19 environment-instruction version; the 2026-10-22 work connects source annotations and genuine development evidence to the course site.
 
-**Course delivery (2026-10-23):** this repository contains the complete native source project, populated CGDD site and student-provided recording. The temporary split-archive transport is retired; clone/download this repository directly. The Pages workflow publishes `site/`. Deployment and verification details are recorded in [status](STATUS.md). The teacher invitation is pending acceptance; no course-platform submission is performed by the agent.
+**Course delivery (2026-10-23):** this repository contains the complete native source project, populated CGDD site and student-provided recording. The temporary split-archive transport is retired; clone/download this repository directly. The [live course site](https://lshhhhhhhhhh10.github.io/get-your-night-back-unity/) is deployed and verified: 30 script nodes, seven parameters, source reading, bilingual navigation and the student recording. Deployment and verification details are recorded in [status](STATUS.md). The teacher invitation is pending acceptance; no course-platform submission is performed by the agent.
 
 ## Open the game
 
